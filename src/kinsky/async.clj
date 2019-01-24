@@ -205,7 +205,7 @@
       may be present for specific offset committing.
    - `:pause`: `{:op :pause}` pause consumption.
    - `:resume`: `{:op :resume}` resume consumption.
-   - `:calllback`: `{:op :callback :callback (fn [d ch])}` Execute a function
+   - `:callback`: `{:op :callback :callback (fn [d ch])}` Execute a function
       of 2 arguments, the consumer driver and output channel, on a woken up
       driver.
    - `:stop`: `{:op :stop}` stop and close consumer.
